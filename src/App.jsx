@@ -8,10 +8,10 @@ function App() {
 
   return (
 
-      <Layout>
-        <Dashboard />
-      </Layout>
- 
+    <Layout>
+      <Dashboard />
+    </Layout>
+
   )
 }
 

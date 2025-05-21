@@ -25,7 +25,7 @@ const items = [
   {
     title: "Articles",
     url: "#",
-    icon: Newspaper ,
+    icon: Newspaper,
   },
   {
     title: "Auto Blog",
@@ -56,18 +56,18 @@ export function AppSidebar() {
         <SidebarGroup>
           <SidebarGroupLabel className="text-4xl font-bold p-6">abun</SidebarGroupLabel>
           <Select className=" ">
-  <SelectTrigger className="w-[180px] mt-4 mb-4">
-    <SelectValue placeholder="company" />
-  </SelectTrigger>
-  <SelectContent>
-    <SelectItem value="light">amazon</SelectItem>
-    <SelectItem value="dark">google</SelectItem>
-  </SelectContent>
-</Select>
+            <SelectTrigger className="w-[180px] mt-4 mb-4">
+              <SelectValue placeholder="company" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="light">amazon</SelectItem>
+              <SelectItem value="dark">google</SelectItem>
+            </SelectContent>
+          </Select>
           <SidebarGroupContent>
 
             <SidebarMenu>
-          {items.map((item) => (
+              {items.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton asChild>
                     <a href={item.url}>

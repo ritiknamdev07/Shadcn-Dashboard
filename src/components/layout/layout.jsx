@@ -10,8 +10,8 @@ function Layout({ children }) {
         <AppSidebar />
         <div className="flex flex-col flex-1 bg-gray-100">
           <div className="flex items-center rounded-sm  gap-2 bg-white p-2 ">
-          <SidebarTrigger /> <Separator orientation="vertical" />
- <h3 className="font-bold">Dashboard</h3>
+            <SidebarTrigger /> <Separator orientation="vertical" />
+            <h3 className="font-bold">Dashboard</h3>
           </div>
           <main className="flex-1 p-4 bg-gray-100 overflow-auto  ">
             {children}

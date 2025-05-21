@@ -321,7 +321,7 @@ const Dashboard = () => {
   const handleTabChange = (value) => {
     setLoading(true);
     setTab(value);
-     setTimeout(() => setLoading(false), 500);
+    setTimeout(() => setLoading(false), 500);
   };
 
   return (
