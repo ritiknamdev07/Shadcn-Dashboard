@@ -8,7 +8,7 @@ A modern dashboard, featuring intuitive navigation, real-time data display, and 
 
 This project is deployed using Vercel.
 
-**Live Demo:** [https://shadcn-dashboard-fxihsp4cm-ritiknamdev07s-projects.vercel.app/]
+**Live Demo:** [https://shadcn-dashboard-khaki.vercel.app/]
 
 ## Features
 
