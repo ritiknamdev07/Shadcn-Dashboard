@@ -4,6 +4,12 @@ This project is built using shadcn.ui components.
 A modern dashboard, featuring intuitive navigation, real-time data display, and customizable UI elements for efficient workflow management.
 
 
+## Deployment
+
+This project is deployed using Vercel.
+
+**Live Demo:** [https://shadcn-dashboard-fxihsp4cm-ritiknamdev07s-projects.vercel.app/]
+
 ## Features
 
 - Sidebar navigation
